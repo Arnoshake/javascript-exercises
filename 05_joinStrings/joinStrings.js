@@ -9,6 +9,17 @@
 
 // Add your code right below, good luck!
 
+const firstName = "Carlos";
+const lastName = "Stevenson"
+const fullName = firstName + " " + lastName;
+
+const thisYear = 1965;
+const birthYear = 1947;
+const age = thisYear-birthYear;
+
+// assignment asked for simple concatenation but I wanted to experiment with the back tick quotes
+// const greeting = `Hello! My name is ${firstName} ${lastName} and I am ${thisYear-birthYear} years old.`; //STEP 2: do
+const greeting = `Hello! My name is ${fullName} and I am ${age} years old.`; //STEP 3: optimize
 
 
 
